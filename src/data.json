@@ -1,0 +1,43 @@
+{
+    "source": "Hyderabad",
+    "destination":"Banglore",
+    "travelDate":"2020-03-01T18:25:43.511Z",
+    "returnDate":"2020-03-31T18:25:43.511Z",
+    "travelBusList":[
+      {
+        "BusNo":"KA01WE1234",
+        "BusOperatorName":"Orange Travels",
+        "departureTime":"6:30 pm",
+        "arrivalTime":"9:30 am",
+        "travelDuration":"1 Night",
+        "departureDestination": "Madiwala",
+        "arrivalDestination": "High Tech City",
+        "seatType":"All sleeper",
+        "boardingPlaceList":[],
+        "price": "800",
+        "busSeat":[
+          {"id":"L1", "available": true, "price":"800"},
+          {"id":"L2", "available": false, "price":"800", "occupiedBy":"female"},
+          {"id":"L3", "available": false, "price":"800", "occupiedBy":"female"}
+        ]
+      }
+      ],
+      "returnBusList":[
+        {
+        "BusNo":"KA01WE1234",
+        "BusOperatorName":"Orange Travels",
+        "departureTime":"6:30 pm",
+        "arrivalTime":"9:30 am",
+        "travelDuration":"1 Night",
+        "departureDestination": "Madiwala",
+        "arrivalDestination": "High Tech City",
+        "seatType":"All sleeper",
+        "boardingPlaceList":[],
+        "busSeat":[
+          {"id":"L1", "available": true, "price":"800"},
+          {"id":"L2", "available": false, "price":"800", "occupiedBy":"female"},
+          {"id":"L3", "available": false, "price":"800", "occupiedBy":"female"}
+          ]
+      }
+        ]
+  }
